@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consignas TP2</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="assets/img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="navigation">
+        <a href="main.html">Home</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="informacion.html">Información</a>
+        <a href="blanco.html">Consignas TP2</a>
+    </div>
+    <div class="container_consigna">
+        <h1 class="title-consigna">Consigna - Trabajo Practico Nro 2</h1>
+        <div class="consigna_item">
+            <h3 class="consigna_title">1. Cookies</h3>
+            <p class="consigna_description">Utilizar cookies para contar cuantas veces se visito la pagina de su proyecto. En caso de ser la primera
+                vez, mostrar un cartel de bienvenida del estilo ej: ”Bienvenidos al mi pagina personal”</p>
+        </div>
+        <div class="consigna_item">
+            <h3 class="consigna_title">2. Pagina de contacto</h3>
+            <p class="consigna_description">Se solicita crear una pagina de contacto (contacto.php) en donde exista un formulario con los siguientes
+                campos:”</p>
+            <ul>
+                <li>Nombre y Apellido</li>
+                <li>Dirección</li>
+                <li>Telefono</li>
+                <li>E-mail</li>
+                <li>Consulta</li>
+            </ul>
+            <p class="consigna_description">Tambien debe contener un boton que realice el envio del formulario.</p>
+        </div>
+        <div class="consigna_item">
+            <h3 class="consigna_title">3. Validacion</h3>
+            <p class="consigna_description">Implementar las funciones de validacion correspondientes para:</p>
+            <ul>
+                <li><strong>Validacion de campo vacio</strong>TODOS los campos son obligatorios. No deben llegar campos vacios ()
+                    o con espacio en blanco</li>
+                <li><strong>Validacion de tipo de datos</strong>Se debe validar que los campos solo string no permita otro tipo de
+                    formato. Igualmente los que son solo numeros (como el Telefono sin guiones). Tener en cuenta que hay
+                    campos mixtos (aceptan caracteres y numeros)</li>
+                <li><strong>Validacion de Tamaño</strong><br> El nombre y apellido no deben superar los 30 caracteres.<br>
+                     La consulta no debe superar los 100 caracteres<br>
+                     El e-mail no debe superar los 50 caracteres.</li>
+                <li><strong>Validacion de la información</strong> El mail debe ser v´alido. Para esto se debe controlar:<br>
+                     El string debe tener el caracter arroba.<br>
+                     Debe tener un nombre de usuario previo al arroba.<br>
+                     Debe tener un dominio aceptado luego del punto (.com, .gob, .edu).</li>
+                <p>Si el formulario no pasa alguno de estas validaciones se debe informar al usuario y no continuar hasta que
+                    realice los cambios necesarios.</p>
+            </ul>
+        </div>
+        <div class="consigna_item">
+            <h3 class="consigna_title">4. Guardado de la consulta</h3>
+            <p class="consigna_description">Cada vez que se realice una consulta (envoo de formulario) y pase las rutinas de validacion, guardar el
+                texto de la consulta en un archivo. El nombre de este archivo debe ser el apellido y nombre del usuario que
+                realiza la consulta (apellido-nombre). En caso de existir el archivo de un determinado usuario, agregar al final de su contenido la ultima consulta
+                realizada.</p>
+        </div>
+        <div class="consigna_item">
+            <h3 class="consigna_title">5. Presentacion y Evaluacion</h3>
+            <ul>
+                <li>Se debe comprimir la carpeta que incluya todo el sitio con sus respectivos scripts y estilos e un archivo
+                    rar o zip con el siguiente formato de nombre:
+                    <strong>[ApellidoAlumno]Tpn2ProgWeb.zip</strong> (Con corchetes incluidos)<br>
+                    Por ejemplo mi caso seria:
+                    <strong>[LampertAlan]Tpn2ProgWeb.zip</strong></li>
+                <li>El archivo se debe subir a la plataforma, en la tarea creada correspondiente. No se aceptan trabajos
+                    por otro medio (emails, etc) ya que no permiten evaluar.</li>
+                <li>Se debe respetar la fecha limite establecida en la tarea. No se aceptaran trabajos posteriores a la fecha.</li>
+                <li>La evaluacion consiste en 3 estados: Aprobado, Rehacer y Reprobado. Aprobado siginifica en carrera
+                    de promocion. Rehacer es para tratar de llegar al Aprobado y Reprobado es cuando no se agotaron las
+                    instancias anteriores.</li>
+                <li>Cualquier duda se canalizar´a en el foro creado correspondiente.</li>
+            </ul>
+        </div>
+    
+    </div>
+    <footer class="footer">
+        <p>Derechos reservados &copy; Lampert Alan</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/alan.lampert" target="_blank" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/alan.lampert/" target="_blank" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.linkedin.com/in/alan-lampert-792643164/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://www.github.com/alan25593" target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
