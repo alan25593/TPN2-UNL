@@ -6,7 +6,10 @@ function mostrarMensaje() {
     }, 3000);
 }
 
-
+function irGithub() {
+    var githubUrl = "https://github.com/alan25593/TPN2-UNL";
+    window.open(githubUrl, '_blank');
+}
 
 /*  Función cuando carga la pantalla Home*/
 document.addEventListener("DOMContentLoaded", function() {
