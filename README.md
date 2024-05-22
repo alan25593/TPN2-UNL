@@ -1,12 +1,17 @@
 # TPN2-UNL
 Realizado por Alan Lampert
 
+Utilizamos xamp para levantar la web
 ![Recomendaciones](/src/recomendaciones.png)
 
+nos devuelve 200 el envio del form
 ![200 consulta](/src/200.jpg)
 
+el Payload del mismo
 ![Payload](/src/payload.jpg)
 
+
+SE GUARDO EL ARCHIVO!!
 ![Archivo](/src/archivo.jpg)
 
 
