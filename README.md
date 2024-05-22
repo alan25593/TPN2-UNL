@@ -2,21 +2,20 @@
 Realizado por Alan Lampert
 
 Utilizamos xamp para levantar la web
-
 ![Recomendaciones](/src/recomendaciones.png)
 
-nos devuelve 200 el envio del form
-
+Nos devuelve 200 el envio del form
 ![200 consulta](/src/200.jpg)
 
-el Payload del mismo
-
+El Payload del mismo
 ![Payload](/src/payload2.jpg)
 
 
 Se guardo el archivo iniciando con el apellido
-
 ![Archivo](/src/archivos.jpg)
+
+Se guardo de forma secuencial
+![Secuencia](/src/secuencia.jpg)
 
 Agregamos borrado de campos + cartel más "bonito"
 ![Funciones](/src/funciones.png)
