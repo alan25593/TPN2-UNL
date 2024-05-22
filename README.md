@@ -11,7 +11,7 @@ nos devuelve 200 el envio del form
 
 el Payload del mismo
 
-![Payload](/src/payload.jpg)
+![Payload](/src/payload2.jpg)
 
 
 Se guardo el archivo iniciando con el apellido
