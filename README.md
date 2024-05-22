@@ -16,7 +16,7 @@ el Payload del mismo
 
 Se guardo el archivo iniciando con el apellido
 
-![Archivo](/src/archivo.jpg)
+![Archivo](/src/archivos.jpg)
 
 Agregamos borrado de campos + cartel más "bonito"
 ![Funciones](/src/funciones.png)
