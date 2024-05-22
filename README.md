@@ -1,6 +1,9 @@
 # TPN2-UNL
 Realizado por Alan Lampert
 
+![Texto alternativo](ruta/a/la/imagen.jpg)
+
+
 # Consigna
 
 # Trabajo Practico Nro 2
