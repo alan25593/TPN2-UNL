@@ -1,7 +1,7 @@
 # TPN2-UNL
 Realizado por Alan Lampert
 
-Utilizamos xamp para levantar la web
+Utilizamos xamp para levantar la web, en el caso de no levantar la misma con algun servidor, las funciones de php nos daran error.
 ![Recomendaciones](/src/recomendaciones.png)
 
 Nos devuelve 200 el envio del form

@@ -13,10 +13,24 @@ function irGithub() {
 
 /* Función cuando carga la pantalla Home */
 document.addEventListener("DOMContentLoaded", function() {
-    if (window.location.pathname.endsWith('/main.html') || window.location.pathname === '/' || window.location.pathname.endsWith('main.html')) {
-        alert(" ”Bienvenidos al mi pagina personal”");
+    function getCookie(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) return parts.pop().split(';').shift();
     }
 
+    function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    }
+
+    const cookieName = "first_visit";
+    if (!getCookie(cookieName)) {
+        alert("Bienvenidos a mi página personal");
+        setCookie(cookieName, "1", 30); 
+    }
 });
 
 
@@ -52,14 +66,14 @@ function validarFormulario() {
     }
 
     // Validar formato del correo electrónico
-    var formatoCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    var formatoCorreo = /^[^\s@]+@[^\s@]+\.(com|gob|edu)$/;
     if (!formatoCorreo.test(correo)) {
         mostrarMensajeError("Por favor, introduce un correo electrónico válido. EJ alan@gmail.com");
         return false;
     }
 
     // Validar que el teléfono sea numérico
-    if (isNaN(telefono)) {
+    if (!/^\d+$/.test(telefono)) {
         mostrarMensajeError("El teléfono debe contener solo números.");
         return false;
     }
