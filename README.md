@@ -1,7 +1,13 @@
 # TPN2-UNL
 Realizado por Alan Lampert
 
-![Texto alternativo](ruta/a/la/imagen.jpg)
+![Recomendaciones](/src/recomendaciones.png)
+
+![200 consulta](/src/200.jpg)
+
+![Payload](/src/payload.jpg)
+
+![Archivo](/src/archivo.jpg)
 
 
 # Consigna
