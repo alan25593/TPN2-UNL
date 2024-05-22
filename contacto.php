@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
     file_put_contents($nombreArchivo, $consultaConFecha, FILE_APPEND);
     
-    echo json_encode(['message' => 'Consulta enviada con éxito']);
+    echo json_encode(['message' => $nombre. ' su consulta fue enviada con éxito, en breves nos pondremos en contacto!']);
     exit;
 }
 ?>

@@ -67,7 +67,7 @@ function validarFormulario() {
     ocultarMensajes();
     return true;
 }
-
+/* Mensaje Error */
 function mostrarMensajeError(mensaje) {
     var mensajeError = document.getElementById("mensaje-error");
     mensajeError.innerText = mensaje;
@@ -82,6 +82,16 @@ function ocultarMensajes() {
     var mensajeError = document.getElementById("mensaje-error");
     mensajeError.style.display = "none";
 }
+/* Limpiar Campos */
+function limpiarCampos() {
+    document.getElementById("nombre").value = "";
+    document.getElementById("direccion").value = "";
+    document.getElementById("telefono").value = "";
+    document.getElementById("correo").value = "";
+    document.getElementById("consulta").value = "";
+}
+
+
 
 /* SIMULACIÓN ENVÍO */ 
 function mostrarEnvio() {
@@ -126,6 +136,7 @@ function enviarFormulario() {
         ocultarMensaje();
         if (data.message) {
             mostrarMensajeExito(data.message);
+            limpiarCampos();
         }
     })
     .catch(error => {

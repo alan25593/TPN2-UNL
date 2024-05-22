@@ -14,6 +14,9 @@ el Payload del mismo
 SE GUARDO EL ARCHIVO!!
 ![Archivo](/src/archivo.jpg)
 
+Agregamos borrado de campos + cartel más "bonito"
+![Funciones](/src/funciones.png)
+
 
 # Consigna
 
